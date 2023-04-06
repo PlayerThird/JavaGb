@@ -1,0 +1,42 @@
+апр. 06, 2023 7:08:24 PM Hm2_1New writeInFile
+INFO: Заполнение 2000
+апр. 06, 2023 7:08:25 PM Hm2_1New writeInFile
+INFO: Заполнение 2800
+апр. 06, 2023 7:08:25 PM Hm2_1New writeInFile
+INFO: Заполнение 2800
+апр. 06, 2023 7:08:25 PM Hm2_1New writeInFile
+INFO: Заполнение 2820
+апр. 06, 2023 7:08:25 PM Hm2_1New writeInFile
+INFO: Заполнение 2820
+апр. 06, 2023 7:08:25 PM Hm2_1New writeInFile
+INFO: Заполнение 2820
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: Заполнение 2826
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: Заполнение 2826
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: Заполнение 2826
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: Заполнение 2826
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 1 2286
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 1 2286
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 1 2286
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 1 2286
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 1 2286
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 2 2268
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 2 2268
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 2 2268
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 2 2268
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 2 2268
+апр. 06, 2023 7:08:26 PM Hm2_1New writeInFile
+INFO: 2 2268
