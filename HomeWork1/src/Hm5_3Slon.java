@@ -4,7 +4,7 @@ import java.util.Random;
 //        0x000000
 //        0000x000
 //        00x00000
-public class Hm5_3 {
+public class Hm5_3Slon {
     public static void main(String[] args) {
         int size = 8;
         String[][] chahmate = new String[size][size];
@@ -31,14 +31,7 @@ public class Hm5_3 {
     private static boolean SearchPlace(String[][] chahmate, int line, int stolb) {
         int j = stolb;
         int size = chahmate.length;
-        if (stolb == 0 && line == 0) {
-            for (int i = line; i < size - 1 && j < size - 1; ) {
-                if ((chahmate[i][j]).equals("x")) return false;
-                i++;
-                j++;
-
-            }
-        } else if (stolb == 0) {
+        if (stolb == 0) {
             for (int i = line; i >= 0 && j < size - 1; i--) {
                 if ((chahmate[i][j]).equals("x")) return false;
                 j++;
@@ -49,6 +42,10 @@ public class Hm5_3 {
                 j++;
 
             }
+            j = stolb;
+//            for (int i = line; i >= 0; i--) {
+//                if ((chahmate[i][j]).equals("x")) return false;
+//            }
 
         } else if (line == 0) {
             for (int i = line; i < size -1  && j >= 0; i++) {
@@ -80,6 +77,10 @@ public class Hm5_3 {
                 j--;
 
             }
+//            j = stolb;
+//            for (int i = line; i >= 0; i--) {
+//                if ((chahmate[i][j]).equals("x")) return false;
+//            }
         } else if (line == size) {
             for (int i = line; i >= 0 && j >= 0; i--) {
                 if ((chahmate[i][j]).equals("x")) return false;
@@ -92,6 +93,10 @@ public class Hm5_3 {
                 j--;
 
             }
+//            j = stolb;
+//            for (int i = line; i >= 0; i--) {
+//                if ((chahmate[i][j]).equals("x")) return false;
+//            }
         } else {
              j = stolb;
             for (int i = line; i >= 0 && j >= 0; i--) {
@@ -117,6 +122,10 @@ public class Hm5_3 {
                 j++;
 
             }
+//            j = stolb;
+//            for (int i = line; i >= 0; i--) {
+//                if ((chahmate[i][j]).equals("x")) return false;
+//            }
         }
         return true;
     }
@@ -125,10 +134,13 @@ public class Hm5_3 {
         while (true) {
             Random rand = new Random();
             Integer j = rand.nextInt(0, 8);
-            if (SearchPlace(chahmate, i, j)) {
-                chahmate[i][j] = "x";
-                break;
+//            for (int j = 0; j < chahmate.length; j++) {
+                if (SearchPlace(chahmate, i, j)) {
+                    chahmate[i][j] = "x";
+                    break;
+//                }
             }
+
         }
     }
 }
